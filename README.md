@@ -16,6 +16,7 @@
    iii. install the typescript at project level
 
    npm install typescript --save-dev
-   verify the typescript --> npx tsc -v
    
+   verify the typescript --> npx tsc -v
+
    iv. create tsconfig.json file --> npx tsc --init
