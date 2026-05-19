@@ -28,7 +28,7 @@ function testLet(){
     if(true){
         //block
         let empId:string="PQR1004";
-        console.log(empId); //ABC1234
+        console.log(empId); //PQR1004
     }
 
     //console.log(empId); //Cannot find name 'empId'.
