@@ -20,3 +20,13 @@
    verify the typescript --> npx tsc -v
 
    iv. Create tsconfig.json file --> npx tsc --init
+
+Execution:
+===========
+1. Compile and Run the typescript file
+To compile typescript code --> npx tsc
+To run the .js file afte compilation --> node .\dist\1basics\1variables.js
+
+2. Run the typescript directly
+To install ts-node --> npm install -g ts-node
+To run the .ts file --> ts-node .\src\1basics\1variables.ts
