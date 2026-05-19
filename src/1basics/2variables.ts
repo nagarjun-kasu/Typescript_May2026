@@ -21,7 +21,7 @@ test()
 
 let age:number = 30;
 //let age:number = 35; //Cannot redeclare block-scoped variable 'age'.
-age = 40;
+age = 40; //Re-assignment allowed
 console.log(age); //40
 
 function testLet(){
