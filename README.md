@@ -21,7 +21,7 @@
 
    iv. Create tsconfig.json file --> npx tsc --init
 
-Execution:
+# Execution:
 ===========
 1. Compile and Run the typescript file
 
