@@ -1,7 +1,5 @@
 //slice(start, end?): It extracts some portion of string and returns a new string
 
-import process = require("node:process");
-
 let course:string = "Typescript";
 console.log(course.slice(0,4));//Type  //start index is inclusive, end index is exclusive (endindex-1)
 console.log(course.slice(4));//script
