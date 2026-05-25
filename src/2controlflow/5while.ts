@@ -22,12 +22,12 @@ while(num<=20){
 
 //Print only even numbers from 1 to 20 --> 2 4 6 8 10 12 14 16 18 20
 console.log("**** EVEN Number **********")
-let num1:number=1
-while(num1<=20){
+let num1:number=1; //initialization
+while(num1<=20){ //condition
     if(num1%2 === 0){
         console.log(num1); //2 4
     }
-    num1++;
+    num1++; //increment
 }
 
 //Print multiplication table of any number ex: 15
@@ -39,3 +39,10 @@ while(num1<=20){
 15 x 10 = 150
 
 */
+console.log(" *********** MULTIPLICATION TABLE **********")
+let n:number = 19, i =1;
+
+while(i<=10){
+    console.log(`${n} x ${i} = ${n * i}`); //15 30 45... 150
+    i++; //i = i+1
+}
