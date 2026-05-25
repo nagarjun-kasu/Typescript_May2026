@@ -1,0 +1,12 @@
+/*
+
+Assignments:
+=============
+1. Write a program to print numbers divisible by 5 from 1 to 50 using while, do while, and for loop.
+2. Write a program to find sum of first 10 natural numbers using while, do while and for loop.
+3. Write a program to find factorial of a number 5 using while, do while and for loop.
+4. Write a program to print sum of EVEN numbers from 1 to 20.
+5. Write a program to count how many even numbers are present in an array.
+6. write a program to print first non-repeating character in a strting "playwritght automation".
+7. write a program to print first repeating character in a strting "playwritght automation".
+*/
