@@ -1,6 +1,6 @@
 /*
 continue:
-It skips the current iteration and continue with next iterations...
+It skips the current iteration based on the condition and continue with next iterations...
 
 
 */
