@@ -10,3 +10,37 @@ Assignments:
 6. write a program to print first non-repeating character in a strting "playwritght automation".
 7. write a program to print first repeating character in a strting "playwritght automation".
 */
+
+//6. write a program to print first non-repeating character in a strting "playwritght automation".
+const text: string = "playwright automation";
+
+let firstNonRepeatingChar: string = "";
+let firstRepeatingChar: string = "";
+
+for (let i = 0; i < text.length; i++) {
+  const currentChar = text[i];
+  if (!currentChar || currentChar === " ") {
+    continue;
+  }
+
+  let count = 0;
+
+  for (let j = 0; j < text.length; j++) {
+    if (text[j] && currentChar.toLowerCase() === text[j]!.toLowerCase()) {
+      count++;
+    }
+  }
+
+  if(count === 1) {
+    firstNonRepeatingChar = currentChar;
+    break;
+  }
+
+  /* if(count >= 2) {
+    firstRepeatingChar = currentChar;
+    break;
+  } */
+}
+
+console.log("First Non-Repeating Character:", firstNonRepeatingChar);
+//console.log("First Repeating Character:", firstRepeatingChar);
