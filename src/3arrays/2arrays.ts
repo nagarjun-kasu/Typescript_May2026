@@ -24,7 +24,7 @@ let num:number[] = [1,2,3,4,5,6];
 
 console.log("Before adding an element: ", num.length); //6
 let lenOfArray:number = num.push(10);
-console.log("After adding an element: ", num.length); // 7
+console.log("After adding an element: ", lenOfArray); // 7
 console.log(num);
 
 //pop(): It removes the last element and returns the removed element
