@@ -17,12 +17,12 @@ constructor
 
 
 function vs method:
-function is a block of code which is declared indepependently with function keyword
+function is a block of code which is declared independently with function keyword
 
 Method is a block of code which is declared inside the class and accessible through object/class.
 
 
-Properties: varables
+Properties: variables
 static properties/variables
 instance properties
 local properties
@@ -32,7 +32,7 @@ syntax:
 static variablename:datatype = value
 
 instance properties:
-syntax: variablename:datatype = value
+syntax: variablename:datatype = value;
 
 Methods:
 static methods:
