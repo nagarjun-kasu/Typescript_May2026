@@ -46,6 +46,12 @@ export class BasePage{
 
 export class LoginPage extends BasePage{
 
+    login(){
+        this.open("https://playwright.dev");
+        this.click("SignUp");
+        this.fill("#username", "TestUser");
+    }
+
 }
 
 
@@ -56,3 +62,5 @@ login.fill("username", "TestUser");
 login.selfHeal("username", "password");
 
 console.log(login.name); //Playwright
+
+login.login();

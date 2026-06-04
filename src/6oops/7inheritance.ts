@@ -17,8 +17,7 @@ export class SearchTest extends SearchPage{
 
     constructor(queryString:string, productName:string){
         super(queryString);
-        this.productName = productName;
-
+        this.productName = productName; //'super' must be called before accessing 'this' in the constructor of a derived class.
     }
 
     click():void{
