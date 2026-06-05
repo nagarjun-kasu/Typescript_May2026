@@ -47,6 +47,7 @@ interface ITestCase2{
     execute():void;
 }
 
+//concrete class or normal class
 class LoginPage implements ITestCase, ITestCase2{
     testcaseId: string;
     title: string;
